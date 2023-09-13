@@ -201,7 +201,7 @@ public class Controller implements Initializable {
             if (nickname.equals("")) {
                 stage.setTitle("Best chat of World");
             } else {
-                stage.setTitle(String.format("Best chat of World - [ %s ]", nickname));
+                stage.setTitle(String.format("Best  chat  of World - [ %s ]", nickname));
             }
         });
     }
